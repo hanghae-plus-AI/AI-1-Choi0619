@@ -47,5 +47,5 @@
 
 ## WandB 로그
 
-- **Train Loss** WandB 로그: [Train Loss 링크](https://wandb.ai/wrtyu0603-illinois-institute-of-technology/therapist-chatbot/reports/train-loss-24-10-24-17-40-42---Vmlldzo5ODc1MDA4)
+- **Train Loss** WandB 로그: [Train Loss 링크](https://api.wandb.ai/links/wrtyu0603-illinois-institute-of-technology/bdqzugmo)
 - **Eval Loss** WandB 로그: [Eval Loss 링크](https://api.wandb.ai/links/wrtyu0603-illinois-institute-of-technology/vj3z7jty)

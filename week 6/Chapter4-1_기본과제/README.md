@@ -34,4 +34,4 @@
 ## WandB 로그
 
 - **Train Loss** WandB 로그: [Train Loss 링크](https://api.wandb.ai/links/wrtyu0603-illinois-institute-of-technology/xkig1j60)
-- **Eval Loss** WandB 로그: [Eval Loss 링크](https://wandb.ai/wrtyu0603-illinois-institute-of-technology/gyuhwan/reports/eval-loss-24-10-23-21-43-00---Vmlldzo5ODU4Njgw)
+- **Eval Loss** WandB 로그: [Eval Loss 링크](https://api.wandb.ai/links/wrtyu0603-illinois-institute-of-technology/oms9fkrb)

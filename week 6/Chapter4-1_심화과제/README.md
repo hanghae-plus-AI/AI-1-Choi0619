@@ -2,6 +2,15 @@
 
 이번 과제에서는 **LLM (Large Language Model)**을 사용자 지정 텍스트 데이터로 **Instruction-Tuning**을 진행하고, 학습 과정에서 발생하는 `train/loss`와 `eval/loss` 값을 **WandB**를 활용하여 기록 및 시각화하였습니다.
 
+## 챗봇 컨셉
+
+- 마음 쉼터 (마음의 안정을 주는 상담 챗봇)
+
+### 산업군: 심리 상담
+- **사용자**: 심리적으로 힘들거나 조언이 필요한 남녀노소 누구나
+- **문제 상황**: 시간이 부족하거나, 장소 또는 비용 때문에 상담을 받지 못하는 사람들이 많음
+- **목적**: 실제 상담자와 대화하는 것처럼 사용자에게 심리 상담을 제공하고, 심리 상태를 분석해 사용자에게 피드백을 제공함.
+
 ## Instruction-Tuning 과정
 
 ### 1. **데이터 준비**
@@ -21,7 +30,7 @@
 
 [![image](https://github.com/user-attachments/assets/6440020a-0e60-4ffd-94dc-072998383aad)](https://wandb.ai/wrtyu0603-illinois-institute-of-technology/therapist-chatbot/reports/train-loss-24-10-24-17-40-42---Vmlldzo5ODc1MDA4)
 
-- **Eval Loss**: 검증 데이터에 대한 `eval/loss`는 에폭이 진행됨에 따라 감소하다가, 마지막 에폭에서 약간 증가하는 경향을 보였습니다. 이는 **overfitting**의 경우로 보여집니다.
+- **Eval Loss**: 검증 데이터에 대한 `eval/loss`는 에폭이 진행됨에 따라 감소하다가, 마지막 에폭에서 약간 증가하는 경향을 보였습니다. 이는 **overfitting**의 가능성을 시사할 수 있습니다.
 
 ![image](https://github.com/user-attachments/assets/7b93f417-0691-45ae-bb54-4a61cbbb159b)
 
@@ -33,7 +42,7 @@
 - **배치 크기**: 8
 
 ## 결론
-이번 실습에서는 자신만의 .json에 저장된 **텍스트 데이터**를 사용하여 **LLM Instruction-Tuning**을 수행하였습니다. 학습 과정에서 `train/loss`와 `eval/loss`를 기록하고, 이를 WandB를 통해 시각화하여 학습 성능을 모니터링할 수 있었습니다. 모델의 학습 성능은 전체적으로 개선되었으며, Eval 일부 에폭에서 **overfitting**의 경향을 확인할 수 있었습니다.
+이번 실습에서는 자신만의 **텍스트 데이터**를 사용하여 **LLM Instruction-Tuning**을 수행하였습니다. 학습 과정에서 `train/loss`와 `eval/loss`를 기록하고, 이를 WandB를 통해 시각화하여 학습 성능을 모니터링할 수 있었습니다. 모델의 학습 성능은 전체적으로 개선되었으며, 일부 에폭에서 **overfitting**의 경향을 확인할 수 있었습니다.
 
 ## WandB 로그
 

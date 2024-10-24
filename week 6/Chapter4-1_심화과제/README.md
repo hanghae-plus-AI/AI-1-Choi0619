@@ -28,7 +28,8 @@
 ### 4. **결과**
 - **Train Loss**: 학습 중 `train/loss`는 점진적으로 감소하는 양상을 보였습니다. 아래 첨부된 그래프에서 학습 손실이 꾸준히 줄어드는 모습을 확인할 수 있습니다.
 
-[![image](https://github.com/user-attachments/assets/6440020a-0e60-4ffd-94dc-072998383aad)](https://wandb.ai/wrtyu0603-illinois-institute-of-technology/therapist-chatbot/reports/train-loss-24-10-24-17-40-42---Vmlldzo5ODc1MDA4)
+![image](https://github.com/user-attachments/assets/9e423b8c-bd14-4aa2-914f-f765619405ef)
+
 
 - **Eval Loss**: 검증 데이터에 대한 `eval/loss`는 에폭이 진행됨에 따라 감소하다가, 마지막 에폭에서 약간 증가하는 경향을 보였습니다. 이는 **overfitting**의 가능성을 시사할 수 있습니다.
 
